@@ -7,7 +7,14 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      heading: 'var(--font-mohave)',
+      paragraph: 'var(--font-roboto)',
+    },
     extend: {
+      maxWidth: {
+        lp: '1248px',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
