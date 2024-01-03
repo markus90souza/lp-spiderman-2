@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Mohave, Roboto_Flex } from 'next/font/google'
 import '@/styles/globals.css'
 import { Header } from '@/components/header'
+import { Footer } from '@/components/footer'
 
 const mohave = Mohave({
   subsets: ['latin'],
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={`${mohave.variable} ${roboto.variable}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
