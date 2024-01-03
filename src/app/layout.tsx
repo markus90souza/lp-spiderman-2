@@ -4,7 +4,11 @@ import { Mohave, Roboto_Flex } from 'next/font/google'
 import '@/styles/globals.css'
 import { Header } from '@/components/header'
 
-const mohave = Mohave({ subsets: ['latin'], variable: '--font-mohave' })
+const mohave = Mohave({
+  subsets: ['latin'],
+  weight: ['700'],
+  variable: '--font-mohave',
+})
 const roboto = Roboto_Flex({
   subsets: ['latin'],
   weight: ['400'],

@@ -7,6 +7,10 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    backgroundImage: {
+      hero: "url('./../assets/bg-hero.jpg')",
+    },
+
     fontFamily: {
       heading: 'var(--font-mohave)',
       paragraph: 'var(--font-roboto)',
